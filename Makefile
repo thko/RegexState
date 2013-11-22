@@ -7,3 +7,6 @@ CFLAGS = -Wall
 
 default: RegexState.hs
 	$(HC) $(CFLAGS) -c $<
+
+clean:
+	rm -rf $(IFILES) $(OFILES)
