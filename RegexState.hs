@@ -1,4 +1,9 @@
-module RegexState where
+module RegexState
+  ( RegexState
+  , RegexError
+  , compileRegex
+  , match
+  ) where
 
 import Control.Applicative
 import Control.Arrow
